@@ -1,0 +1,1 @@
+this is so I can upload any files that I use as notes and plan to store, but before I make the "initial" commit, and therefore before the repository is "made"
