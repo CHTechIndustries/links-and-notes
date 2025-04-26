@@ -1,1 +1,1 @@
-temporarily hold all the files, then combine them properly
+to hold and manipulate files from "studio"
