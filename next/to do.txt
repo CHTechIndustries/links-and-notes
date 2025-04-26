@@ -1,3 +1,5 @@
 move scene
 rename newest scene
 remove extraneus (just did)
+
+finish rename
