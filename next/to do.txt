@@ -5,4 +5,4 @@ remove extraneus (just did)
 finish rename
 
 delete to-do file (this one)
-	do after the next entry
+	do after rename
