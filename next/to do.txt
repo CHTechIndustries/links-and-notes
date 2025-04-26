@@ -1,3 +1,6 @@
 move scene
 rename newest scene
 remove extraneus (just did)
+
+delete to-do file (this one)
+	do after the next entry
