@@ -3,3 +3,6 @@ rename newest scene
 remove extraneus (just did)
 
 finish rename
+
+delete to-do file (this one)
+	do after rename
