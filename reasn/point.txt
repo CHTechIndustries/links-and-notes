@@ -1,1 +1,1 @@
-temporarilly combine both the edited and updated file
+temporarily hold all the files, then combine them properly
