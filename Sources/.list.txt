@@ -1,2 +1,4 @@
 https://www.bricklink.com/v2/main.page
 	this is the site that studio is from, and contains some good info
+https://rebrickable.com/
+	this contains some good, useful info for instructions, if I understand correctly
