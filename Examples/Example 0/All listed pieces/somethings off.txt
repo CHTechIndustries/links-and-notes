@@ -1,2 +1,4 @@
 the number of links don't add up (literally. one document has 6, another has seven)
 	a quick check said one was a duplicate, and yet they don't look the same from a visual check... so, indepth
+
+	check based on clicking the internal links
