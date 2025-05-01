@@ -3,3 +3,4 @@ the number of links don't add up (literally. one document has 6, another has sev
 
 	check based on clicking the internal links
 	check "all example links" shortcuts
+	info needed
