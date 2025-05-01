@@ -4,3 +4,5 @@ https://rebrickable.com/
 	this contains some good, useful info for instructions, if I understand correctly
 https://www.bricklink.com/catalogTree.asp?itemType=P
 	this directly connects to the catolouque of parts
+https://www.bricklink.com/catalogTree.asp?itemType=S
+	this directly links to the sets
