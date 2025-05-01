@@ -8,3 +8,5 @@ https://www.bricklink.com/catalogTree.asp?itemType=S
 	this directly links to the sets
 https://www.bricklink.com/catalogList.asp?v=3&pg=1&catLike=W
 	this links to all categorys
+https://www.lego.com/en-us/service/building-instructions
+	this links a place for searching for instructions
