@@ -6,3 +6,5 @@ https://www.bricklink.com/catalogTree.asp?itemType=P
 	this directly connects to the catolouque of parts
 https://www.bricklink.com/catalogTree.asp?itemType=S
 	this directly links to the sets
+https://www.bricklink.com/catalogList.asp?v=3&pg=1&catLike=W
+	this links to all categorys
