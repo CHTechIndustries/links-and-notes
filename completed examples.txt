@@ -9,3 +9,5 @@ example 2
 	was n/a. so, nothing added
 example 3
 	all the possible examples where the same as example 2. so also n/a
+example 4
+	all the possible examples where mostly the same as example 2 and 3, and the others where useless. so also n/a
