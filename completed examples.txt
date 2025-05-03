@@ -1,0 +1,13 @@
+example 0
+example 0. again
+example 0. yet again
+	I've decided that example 0 is the branch used for updateing this to studio/ example-based format changes. So, this was technically not an example addition... sorta
+example 0. still. (added better link)
+example 1
+	almost definitly won't use, very limited
+example 2
+	was n/a. so, nothing added
+example 3
+	all the possible examples where the same as example 2. so also n/a
+example 4
+	all the possible examples where mostly the same as example 2 and 3, and the others where useless. so also n/a
