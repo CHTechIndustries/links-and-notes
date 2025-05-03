@@ -13,3 +13,5 @@ example 4
 	all the possible examples where mostly the same as example 2 and 3, and the others where useless. so also n/a
 Example 5
 	same as Example 1. Litterally, it was just the other half of the pair, so it's the same set
+example 6
+	what I was looking for (well, I saw the one I needed while doing it, not sure if that's the one I downloaded...)
