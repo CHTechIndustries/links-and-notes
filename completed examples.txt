@@ -7,3 +7,5 @@ example 1
 	almost definitly won't use, very limited
 example 2
 	was n/a. so, nothing added
+example 3
+	all the possible examples where the same as example 2. so also n/a
