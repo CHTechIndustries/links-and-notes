@@ -1,0 +1,12 @@
+https://www.bricklink.com/v2/main.page
+	this is the site that studio is from, and contains some good info
+https://rebrickable.com/
+	this contains some good, useful info for instructions, if I understand correctly
+https://www.bricklink.com/catalogTree.asp?itemType=P
+	this directly connects to the catolouque of parts
+https://www.bricklink.com/catalogTree.asp?itemType=S
+	this directly links to the sets
+https://www.bricklink.com/catalogList.asp?v=3&pg=1&catLike=W
+	this links to all categorys
+https://www.lego.com/en-us/service/building-instructions
+	this links a place for searching for instructions
