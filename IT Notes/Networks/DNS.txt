@@ -1,0 +1,6 @@
+URI: universal resource identifier. a reference strung if characters
+URL: Uniform Resource Locator: web link
+
+All URLs are URI, not are URI's are URL's
+URN: Uniform Resourse Name
+
