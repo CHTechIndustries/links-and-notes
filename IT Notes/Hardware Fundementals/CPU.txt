@@ -1,0 +1,25 @@
+von neumann architecture
+
+input
+storage/memory
+CPU
+	Register
+	control unit
+	Aritmitic Logic Unit
+		ALU
+output
+
+connected via buses (part of chipset?)
+
+runs on a cycle (Fetch -> Decode -> Execute)
+	it fetches the data, decodes the instructures/ info, and then executes it
+
+
+control unit executes machine code (assembly). Syncronyzes everything to the clockspeed
+
+bus types, circuit on motherboard. connects all components to CPU/ RAM
+Adress Bus: transfers memory addresses, operate unidirectionally
+data bus: transfer data
+combine them, and you have the system bus
+
+control bus, bi-directional
