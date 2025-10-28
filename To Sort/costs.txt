@@ -1,3 +1,0 @@
-light bluish grey: 5.744
-reddish brown: 7.789
-white: 19.99
