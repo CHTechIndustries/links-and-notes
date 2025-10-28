@@ -1,4 +1,0 @@
-disck management access smart
-defragmentation- (now optimize)
-
-defraging re-organizes drive to put related sections together
