@@ -1,5 +1,0 @@
-Which Tempature Sensor?
-What type of mouse?
-What type of printer?
-
-file can't be empty, they inherently contain the data that says what the file is. A blank text file has the information saying "I'm a text file with this name"
