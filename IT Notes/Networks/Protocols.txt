@@ -1,9 +1,0 @@
-IP Protocol (#RAS Syndrome): the most basic network protocol, it is responsible for routing data packets across a network.
-
-TCP (Transmission Control Protocol): a guaranteed delivery protocol, ensures all data arrives without error, it will re-request missing info
-UDP (User Datagram Protocol): just sends all data, doesn't double check. typically used for video or audio calls. If a little goes missing, eh, whatever
-________________ technicly layer 4
-FTP (File transfer Protocol): designed for transferring files (SFTP is encrypted)
-SMTP (Simple Mail Transfer Protocol): e-mails
-
-HTTP (Hyper-text transfer protocol), HTTPS is "secure"
