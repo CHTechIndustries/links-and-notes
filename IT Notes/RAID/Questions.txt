@@ -1,1 +1,1 @@
-detailed questions about RAID
+thoughts/ questions on different types of RAID setups
