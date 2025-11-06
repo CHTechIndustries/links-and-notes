@@ -1,0 +1,8 @@
+It is important to know the contents of a file before reading it.
+Otherwise the output may not be what you expect.
+For text files, it will be easy to read and process.
+For other types of files it will be substantially more difficult.
+Be sure to enclose your File read code in a Try-Catch construct to prevent runtime errors.
+
+using the File.ReadAllText or File.ReadAllLines vs the Stream options will take some practice to determine when to use them.
+Good luck and remember to COMMENT YOUR CODE!
