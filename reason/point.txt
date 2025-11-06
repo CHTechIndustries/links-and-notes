@@ -1,1 +1,0 @@
-when makeing a new branch, this will be where a temporary note is put. By doing that, they can all be deleted in one fell swoop later. I think
