@@ -27,5 +27,7 @@ Mirrioring: stores a copy of all information on 2 drives, this means no extra sp
 Parity: you loose more like 1/3 of all the capacity. Instead of duplicating data, it uses a "parity block" to allow recreation of lost data
 3 Main categories:
 Standard-
+- Raid 0: uses Striping to just split the data
+Raid 5: uses block-level striping with parity blocks. It has better performance, if you loose 1 hardrive, the data is retrievable
 Non-Standard-
 Hybrid- 
