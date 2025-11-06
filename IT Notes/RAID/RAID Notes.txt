@@ -1,0 +1,33 @@
+Redundant Array; Independant Disck
+it uses multiple discks as one disck, to allow the storing of data redundantly
+
+it is used to make data more redundant
+
+unlike JBOD (Just a bunch of discks). Acording to the computer, a RAID will look like one hardrive, whereas JBODS are multiple hardrives, and seen that way by the computer.
+
+Unlike JBOD, RAID makes data more redundant
+
+Parts:
+The controller, which is what makes the computer see it as 1 volume, and manages the backup
+
+2 main types; Hardware, and Software. Hardware ones are more reliable
+an example is a "PERC" card
+Software ones are based on programs, meaning no hardware. It's more configurable and easy to use. But it relies on the CPU/ RAM
+Firmware based RAID is built into most BIOS/ UEFI systems, operating on vender-level scale. You may need specific drivers, but
+
+There are many types and features
+
+some terms:
+
+Data Striping:
+can read in parallel, stores every other piece of information, no fault tolerance
+
+Mirrioring: stores a copy of all information on 2 drives, this means no extra space, but perfect copy
+
+Parity: you loose more like 1/3 of all the capacity. Instead of duplicating data, it uses a "parity block" to allow recreation of lost data
+3 Main categories:
+Standard-
+- Raid 0: uses Striping to just split the data
+Raid 5: uses block-level striping with parity blocks. It has better performance, if you loose 1 hardrive, the data is retrievable
+Non-Standard-
+Hybrid- 
