@@ -1,3 +1,3 @@
 a file to just put quick info
 
-this folder contains: shortcuts linking to apps that are installed on my thumbdrive to allow easy activation, once this repo is on a computer, and assuming my thumbdrive is plugged in
+this folder contains: shortcuts linking to apps that are installed on my thumb drive to allow easy activation, once this repo is on a computer, and assuming my thumb drive is plugged in
