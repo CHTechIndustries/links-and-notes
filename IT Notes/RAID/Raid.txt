@@ -27,8 +27,28 @@ can read in parallel, stores every other piece of information, no fault toleranc
 Mirrioring: stores a copy of all information on 2 drives, this means no extra space, but perfect copy
 
 Parity: you loose more like 1/3 of all the capacity. Instead of duplicating data, it uses a "parity block" to allow recreation of lost data
+
 3 Main categories:
+
 Standard-
-Raid 5: uses block-level striping with parity blocks. It has better performance, if you loose 1 hardrive, the data is retrievable
+- Raid 0: uses Striping to just split the data
+1-(1-AFR_singleDisck)^numberOfDiscks
+	1 disk failure will loose all data, and as more disks are more fault points, the equation above shows how more drives is a higher average failure rate
+- Raid 1: direct mirroring. That means it's as if you have half the capacity. Reading is faster as you have 2 cpies to read in parallel. Write speed is identical
+
+- Dead Standard:(outdated)
+	Raid 2: bit-level striping with ...
+	Raid 3: used byte levek striping and parity
+	Raid 4: used block level striping with dedicated parity
+Raid 5: uses block-level striping with distributed parity blocks, meaning it doesn't need a hardrive dedicated to parity. It has better performance, if you loose 1 hard rive, the data is retrievable but performance suffers. Loose 2 hard rives, and, well, data's gone. Minimum of 3 discks, maximum of 16
+
+Raid 6: same, but 2 parity blocks, so can withstand 2 failed drives. Requires 4 drives, more efficient with more. more reliable. Long rebuild times
+
 Non-Standard-
+Raid DP- an extension of Raid 6, supposed to be faster
+Linux AD is a modified version of Raid 10 that 
+Raid Z, variation that uses the ZFS system, z1 through z3, meaning how many discks it can handle. Self healing from corruption
+Declustered RAID. Data and Parity is split across all discks
 Hybrid- 
+Raid 10: stripe contents, mirror said stripes. Offers same read-write of Raid 0, but same redundancy of raid one. But, needs 2 per section
+Raid 50: similar, but utilizing raid 5 on the striped info
