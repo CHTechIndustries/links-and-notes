@@ -1,7 +1,0 @@
-Import Image
-Insprite actions, use "make paper2d"
-In same place, use "make sprite"
-For parts that are animated between, use "create flipbook"
-Edit flipbook for other features if so desired
-
-if spritesheet, use "extract sprite", then go through as needed
