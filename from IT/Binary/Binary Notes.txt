@@ -1,0 +1,13 @@
+2 times itself "x" times
+
+convert, say
+01101110:
+stick values in chart, add what
+
+ascii table
+
+column 1: 2^x (x=0 -> 7)
+
+convert: put binary value into second column, add each value together
+
+ASCII= American Standard of Code Information Interchange
