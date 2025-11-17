@@ -1,0 +1,36 @@
+no drivers, built in settings, ect.
+typically it will display a box if it works.
+
+IPS glow: mostly just minimization, distance, bright light, ect. Losening the screen might help
+	more a material constrait
+
+backlight bleed is when the light "bleeds" around the edges
+	more a design flaw than anything. Soloution? don't cheap out
+	light obstructing tabe can help
+
+Blurry Display: it started with the CRT's, and it's not going anywhere
+	try looking into software, check drivers. Afterwards, check if plugging in a working one fixes it.
+	alternate ports
+	check cables
+	graphics card
+
+	windows key + shift + b
+		to restart graphics drivers
+
+
+bad pixels: a dead pixel, if a few, it's just annoying. If enough though...
+	some programs claim to be able to fix it, they work via something cauld "box flashing"
+	if caused by the liquid(crystal), try gently pushing, that can redistribute the liquid
+
+clouding: if you mishandle it, the LCD panels can get
+
+burn in: primarily an issue with CRT's, but still an issue. If the damage is minor, then it's just the image lingering short term, but if kept too long, it will be permanent.
+	if you have ghosting, turn off the monitor short term
+once it's become more major, you can try flashing through every color in the spectrum, or pure white. That can mitigate it
+
+Buzzing/ Flickering: primarily CRT's, in those cases hitting it could help. But, now, it's software, so you are just damaging the monitor. Elsewishe it's either software, or get new monitor
+
+distorted display. You can try reinstalling the drivers. If it doesn't work, it's hardware
+
+dual monitor
+________________

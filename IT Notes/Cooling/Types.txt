@@ -1,0 +1,20 @@
+Active: uses mechanical means
+
+2 main ways
+	air-based, useing fans
+	liquid based
+air-based can be noisy, but won't leak. Liquid cooling uses a liquid (often water). It passes through the components, then goes to a radiator. Much more efficient, quieter, and can reach lower temps (especially if you use a cooler medium, lique LN2, as liquid nitrogen is cold). But if it leaks...
+
+now, there is a phase change cooling. Can reach sub-ambient tempatures, works via evaporative cooling and condensation. However, it's not as simple
+
+thermoelectric: uses the peltier effect to create a tempature differential. But, it's not always effective at dissipating heat
+
+passive cooling: systems that don't require power
+heatsinks: devices with a high surface area, and thermal conductivity. Uses convection and such
+	dependant on airflow, so if enclosed... not very good
+
+thermal pads and thermal paste: they fill in the small imperfections to allow better heat conduction
+
+benifits of effective cooling: better performance, longevity
+
+cable management will help
