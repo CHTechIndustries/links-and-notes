@@ -18,3 +18,5 @@ thermal pads and thermal paste: they fill in the small imperfections to allow be
 benifits of effective cooling: better performance, longevity
 
 cable management will help
+
+in bios, you can adjust speed, adjust curve...ect.
