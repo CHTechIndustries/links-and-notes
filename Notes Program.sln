@@ -5,7 +5,7 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes Program", "Notes Program.csproj", "{A7950E0E-1AF6-40EC-A19F-25E5DA79EE81}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IT Notes", "IT Notes", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IT", "IT.csproj", "{8FC25294-201C-45A0-88FE-8E268788EF5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +17,10 @@ Global
 		{A7950E0E-1AF6-40EC-A19F-25E5DA79EE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7950E0E-1AF6-40EC-A19F-25E5DA79EE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7950E0E-1AF6-40EC-A19F-25E5DA79EE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC25294-201C-45A0-88FE-8E268788EF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC25294-201C-45A0-88FE-8E268788EF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC25294-201C-45A0-88FE-8E268788EF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC25294-201C-45A0-88FE-8E268788EF5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
