@@ -63,6 +63,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="IT Notes\Binnary Convert\Binary to Decimal.url" />
+    <None Include="IT Notes\Binnary Convert\Binary to Text.xlsx" />
+    <None Include="IT Notes\Binnary Convert\Split Value.xlsx" />
+    <None Include="IT Notes\Memory\3D xpoint technology memory.url" />
+    <None Include="IT Notes\Memory\Optane Memory.url" />
+    <None Include="IT Notes\Memory\Phase Change Memory.url" />
+    <None Include="IT Notes\Operating Systems\WindowsVersionComparison%282%29.xlsx" />
+    <None Include="IT Notes\Operating Systems\WindowsVersionComparison.xlsx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +83,53 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IT Notes\Architecture\Architecture Diagram.png" />
+    <Content Include="IT Notes\Architecture\Architecture.txt" />
+    <Content Include="IT Notes\Binary Notes.txt" />
+    <Content Include="IT Notes\Binary to Decimal Examples.txt" />
+    <Content Include="IT Notes\Boot manager.txt" />
+    <Content Include="IT Notes\Computer Disasembly\Disasemble.txt" />
+    <Content Include="IT Notes\Cooling\Possible Issues.txt" />
+    <Content Include="IT Notes\Cooling\Types - Copy.txt" />
+    <Content Include="IT Notes\Cooling\Types.txt" />
+    <Content Include="IT Notes\Corrupd BIOS.txt" />
+    <Content Include="IT Notes\Device Drivers.txt" />
+    <Content Include="IT Notes\Device Manager.txt" />
+    <Content Include="IT Notes\File Systems.txt" />
+    <Content Include="IT Notes\Hardware Fundementals\CPU.txt" />
+    <Content Include="IT Notes\Hardware Fundementals\HDD.txt" />
+    <Content Include="IT Notes\History of MacOS.txt" />
+    <Content Include="IT Notes\Hyperthreading Notes.txt" />
+    <Content Include="IT Notes\Linux.txt" />
+    <Content Include="IT Notes\Memory\Memory Notes.txt" />
+    <Content Include="IT Notes\Memory\Mems.txt" />
+    <Content Include="IT Notes\Missign\Missign Notes.txt" />
+    <Content Include="IT Notes\Monitor\Monitors.txt" />
+    <Content Include="IT Notes\Monitor\Possible Errors and fixes.txt" />
+    <Content Include="IT Notes\Monitor\Trobleshooting.txt" />
+    <Content Include="IT Notes\Networks\Models.txt" />
+    <Content Include="IT Notes\Operating Systems\Windows.txt" />
+    <Content Include="IT Notes\Peripherial Devices\Connections.txt" />
+    <Content Include="IT Notes\Peripherial Devices\Peripherials.txt" />
+    <Content Include="IT Notes\Peripherial Devices\Troubleshooting Peripherials.txt" />
+    <Content Include="IT Notes\Personal IT Notes\Acronym\Tech Support Acronym.txt" />
+    <Content Include="IT Notes\Personal IT Notes\Acronym\Tech Support- Eldritch.txt" />
+    <Content Include="IT Notes\Personal IT Notes\Windows Notes.txt" />
+    <Content Include="IT Notes\Printer\Common Issues&amp;Fixes- Article 1.txt" />
+    <Content Include="IT Notes\Printer\Idendifying issues.txt" />
+    <Content Include="IT Notes\Printer\Printers.txt" />
+    <Content Include="IT Notes\Printer\Troubleshooting Printers.txt" />
+    <Content Include="IT Notes\RAID\Circumstances for RAIDs.txt" />
+    <Content Include="IT Notes\RAID\Raid.txt" />
+    <Content Include="IT Notes\Safe Mode.txt" />
+    <Content Include="IT Notes\To check system.txt" />
+    <Content Include="IT Notes\Tools\Event Viewer.txt" />
+    <Content Include="IT Notes\Tools\power user.txt" />
+    <Content Include="IT Notes\Windows Notes.txt" />
+    <Content Include="IT Notes\Windows Sandbox.txt" />
+    <Content Include="IT Notes\Windows.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
