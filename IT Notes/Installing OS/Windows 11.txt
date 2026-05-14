@@ -1,0 +1,51 @@
+1 gigahertz CPU, 2 cores
+4 gigs of ram
+64 gigs of storage
+UEFI and Secure Boot
+
+TPM 2.0
+	trusted platform module
+	used for secure boot, which checks if bios has been tampered with
+
+direct x 12
+
+officially, a Microsoft account
+
+2 (technically 3) primary ways to install windows
+1. Using the "windows media creation kit". It's a free Microsoft program for making a USB that will auto-install windows. Downside is, you can't bypass any hard requirements like TPM
+
+2. useing Rufus, which is a third party program to set up thumbdrives for installing, allowing the disableing of certain checks, such as the TPM module
+
+3.PXE Boot: you download a copy over the network, and acess it over the server. It's great for multiple devices, if it works. Also bypasses hardware checks
+
+_________________________________________________________________________________________________________________________________
+
+to work, you need the .iso file
+	identical storage image of optical media
+		international storage standards organization
+
+money is for activation, not installation. You can get the .iso for free
+
+____________________________________________________________________________
+
+creating an installation drive is easy. You download the program, run it, and it's a guided process. Pick format. USB, in which case it will check for USB drives. Or the .iso file, in which case it will just download as an iso file
+
+Rufus:
+rufus.ie
+____________________________________________________________________________________________________________________
+
+free, open source. when opened, bunch of settings
+
+can use multiple different disk image formats. You also can download the iso from a given location (new feature)
+You also can download the iso from a given location (new feature), or from one you already downloaded
+
+other options include:
+standard instillation
+windows to go, which allows you to experiment with it, a simple "trial" version. It has a button on it to install it
+partition scheme
+	gpt (guid partition table)
+	mbr (master boot record)
+uses uefi
+set file system
+adjust cluster size, to cause less wasted space
+quick format: will format a drive faster, at the cost of security
