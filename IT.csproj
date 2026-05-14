@@ -85,6 +85,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fragmented\disck- HDD.txt" />
+    <Content Include="fragmented\disck- SSD.txt" />
+    <Content Include="fragmented\fragmented notes.txt" />
     <Content Include="IT Notes\Architecture\Architecture Diagram.png" />
     <Content Include="IT Notes\Architecture\Architecture.txt" />
     <Content Include="IT Notes\Binary\Binary Notes.txt" />
