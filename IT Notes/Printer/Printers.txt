@@ -11,3 +11,5 @@ Mobile Printers: compact, lightweight, they can print directly from phones/ tabl
 Plotters: high-quality, large scale. They handle larger paper sized, for precision and accuracy. Struggle with text
 UV Printers: rely on ultiviolot light to cure the ink onto objects, good for glass, magnets, ect. Even metal.
 Digital Presses: fast, consistent high quality printing, however expensive and often requires special training
+____________
+Toner: uses a powder, then heats it, baking it in
