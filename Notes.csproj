@@ -8,4 +8,19 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="OtherStuff\**" />
+    <Compile Remove="Programing Notes\**" />
+    <Compile Remove="ProgramNotes\**" />
+    <Compile Remove="T\**" />
+    <EmbeddedResource Remove="OtherStuff\**" />
+    <EmbeddedResource Remove="Programing Notes\**" />
+    <EmbeddedResource Remove="ProgramNotes\**" />
+    <EmbeddedResource Remove="T\**" />
+    <None Remove="OtherStuff\**" />
+    <None Remove="Programing Notes\**" />
+    <None Remove="ProgramNotes\**" />
+    <None Remove="T\**" />
+  </ItemGroup>
+
 </Project>
