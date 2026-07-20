@@ -1,4 +1,5 @@
 a standardized way of communicating data (protocol)
+one of the most common is IP (Internet Protocol)
 
 a port is a specific, well, port for data
 
