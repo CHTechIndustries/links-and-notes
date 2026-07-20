@@ -1,0 +1,21 @@
+NEMA: National Electrical Manufacturers Assosciation
+	most common in US
+
+5-20 is higher amps, 5-15 lower
+
+IEC: International Electrotechnical Commision
+	most common outside US
+
+most technical devices use IEC. with NEMA, most likely to find NEMA 5-15P and NEMA 5-15R (Just standard outlets). 1-15 is just non-grounding
+
+IEC C5 and C6 are typical for the laptop AC adapter. Might also be IEC C13+14
+
+C7 connects to C8, can be pollar or non-pollar. often chargers
+
+desktoips often use C13 and C14
+
+Apliances often use C15 and C16, although can be used elsewhere
+
+C19 and C20 can be found on servers, but they can also use C14 and C13
+
+odd numbers are outlet, even inlet
