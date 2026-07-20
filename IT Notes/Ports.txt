@@ -1,0 +1,2 @@
+a standardized way of communicateing data
+one of the most common is IP (Internet Protocol)
