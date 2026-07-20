@@ -1,5 +1,6 @@
 a standardized way of communicating data (protocol)
 
+a port is a specific, well, port for data
 
 0-~1023 is the common and standard ports
 past that to ~50,000 are non-registered, so used by specific programs, organizations, ect.
