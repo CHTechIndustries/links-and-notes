@@ -2,3 +2,4 @@ a standardized way of communicating data (protocol)
 
 
 
+49152 to 65535 are "dynamic" or "ephemeral". Temporarily assigned when you, say, connect to a website. Then the data from that website goes through that port
