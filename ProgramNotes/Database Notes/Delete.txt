@@ -1,0 +1,13 @@
+Deleteing:
+delete from
+
+both keywords next to each other
+
+use where, or all gets deleted
+
+for instance, to delete dough (id 6):
+
+DELETE FROM Ingredients
+WHERE ID = 6
+
+if we inserted Pizza Dough (non-GF), it will be ID 7
