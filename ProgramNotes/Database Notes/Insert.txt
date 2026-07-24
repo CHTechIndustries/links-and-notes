@@ -1,0 +1,29 @@
+Insert Into Table (field1, field2,... fieldn)
+	"table" is the name of the table, field"n" is the field to insert
+Values (value1, value2, ... valuen)
+- can skip fields if null is allowed
+- order of values must be same as table (so value1 must be the first (non-id) column)
+
+for example:
+insert into ingredients
+(Description, Qty)
+('Mozzerella', 64)
+______________
+
+shorter way:
+
+Insert Into Table
+	"table" is the name of the table
+Values (value1, value2, ... valuen)
+
+- has to use all (you can leave off ones, but only if there is nothing after and it can be null)
+so, have to use all values untill you reach a point where all following values are null
+
+insert into ingredients
+('Mozzerella', 64)
+if the first one is null, we have to define:
+  (null, 64)
+  -if the second is null:
+  ('dough')
+  -if there's a third one that isn't null:
+  ('dough',null,TRUE)

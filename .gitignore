@@ -13,10 +13,10 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
-# Mono auto generated files
+# Mono auto generated files 
 mono_crash.*
 
-# Build results
+# Build results 
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -361,11 +361,4 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-
-#User Defined
-/.transfer
-
-DotNetZip-o23n7zsw.tmp
-primary scene.io.backup
-*.bkp
-/.vs/links-and-notes/v17/.wsuo
+.transfer/.transfer

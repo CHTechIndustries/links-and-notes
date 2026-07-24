@@ -1,0 +1,25 @@
+Update table
+'table' is the name of the table (say, ingredients)
+set field1 = value1, field2 = value2, ... fieldn = valuen
+where id=x can select row
+
+if pinaple is id 4, and has 2, then:
+
+Update ingredients
+SET Qty = 26
+where id = 4.
+
+then pinaple's quantity will change to 26
+	this is just setting, so it overwrites. if decreasing, just overwrite with the calculated value
+
+________________________
+to edit multiple
+
+Update Ingredients SET
+Description = 'Pizza Dough', Qty = 50
+where ID = 6
+
+that would change id 6 (dough,12) into (pizza dough, 50)
+
+____________________
+DO NOT FORGET THE WHERE!!! IT WILL OVERWRITE EVERYTHING!

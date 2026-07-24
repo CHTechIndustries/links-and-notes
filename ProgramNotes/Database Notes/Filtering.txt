@@ -1,0 +1,30 @@
+SELECT fields FROM table
+
+* means "all"
+
+for precise: 
+to filter, add
+WHERE
+For instance, ContactID > 10, making contact ID need to be above 10
+
+not equal to: !=
+greater than or equal >=
+less than or equal <=
+
+for multiple, use "AND" (use "or" for, well, or)
+
+AND "condition"
+
+parenthases use to check multiple things in groups
+
+for things that are general things:
+
+use LIKE: so;
+WHERE field LIKE condition
+
+use: '%c' for "ends with c"
+use "'c%: for "starts with c"
+use "%c%" for "contains c"
+
+things to check:
+if you want to get the length, use "LEN" (input), and that could go in with, say, WHERE LEN(name) != 3, to get everything that's not 3 long
