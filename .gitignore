@@ -361,4 +361,12 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-.transfer/.transfer
+
+#User Defined
+/.transfer
+
+DotNetZip-o23n7zsw.tmp
+primary scene.io.backup
+*.bkp
+/.vs/links-and-notes/v17/.wsuo
+/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
