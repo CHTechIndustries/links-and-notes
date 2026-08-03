@@ -5,4 +5,4 @@ router: connects the signal together
 it is responsible for directing data between connected networks
 it creates a local IP address and creates a LAN (local area network)
 firewall: hardware or software that analyzes both the incoming and outgoing network data packets and allows, rejects, or drops based on rules
-	difference between droping and rejecting:
+	difference between droping and rejecting: rejecting is just purely blocking, droping is, well, unknown
