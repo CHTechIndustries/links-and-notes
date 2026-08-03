@@ -1,16 +1,23 @@
 modem: converts ISP into the ethernet. 
 Also converts between analog and digital
 modem creates the "WAN" (Wide area network), so it's basically the router for the WAN
+
 router: connects the signal together
 it is responsible for directing data between connected networks
 it creates a local IP address and creates a LAN (local area network)
+
 firewall: hardware or software that analyzes both the incoming and outgoing network data packets and allows, rejects, or drops based on rules
 	difference between droping and rejecting: rejecting is just purely blocking, droping is, well, unknown
+
 gateway: converts information, data, or other communications from one protocol or format to another
 	a router may perform some of the functions of a gateway. An internet gateway can transfer communications between a network and the internet, (such as if you have a different IP format, say IP v6 to  IP V4)
+
 Security Gateway: a combination of router and firewall, as well as more. Some tools included aare Network Intrusion Detection or Prevention Service.
 	utilizes heuristics, detection just detects, prevention truly prevents
+
 switch; finds the connection and allows network cables to communicate in multiple paths. It operates as 1-to-1
+
 Hub: main difference between it and switch is split or divided amongst the ports
 	it can be more robust, but it is no longer used
+
 wireless access point: allow connecting wirelessly, thus allowing connecting more things as you have effectively a dedicated cable capable of many connections, and a range
