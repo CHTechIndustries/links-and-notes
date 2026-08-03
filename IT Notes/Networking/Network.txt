@@ -1,1 +1,2 @@
 modem: converts ISP into the ethernet. 
+Also converts between analog and digital
