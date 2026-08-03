@@ -1,2 +1,6 @@
 modem: converts ISP into the ethernet. 
 Also converts between analog and digital
+router: connects the signal together
+it is responsible for directing data between connected networks
+it creates a local IP address
+and creates a LAN (local area network)
