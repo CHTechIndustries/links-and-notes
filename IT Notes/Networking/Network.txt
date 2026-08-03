@@ -7,3 +7,4 @@ it creates a local IP address and creates a LAN (local area network)
 firewall: hardware or software that analyzes both the incoming and outgoing network data packets and allows, rejects, or drops based on rules
 	difference between droping and rejecting: rejecting is just purely blocking, droping is, well, unknown
 gateway: converts information, data, or other communications from one protocol or format to another
+	a router may perform some of the functions of a gateway. An internet gateway can transfer communications between a network and the internet 
