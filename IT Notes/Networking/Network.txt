@@ -9,3 +9,5 @@ firewall: hardware or software that analyzes both the incoming and outgoing netw
 gateway: converts information, data, or other communications from one protocol or format to another
 	a router may perform some of the functions of a gateway. An internet gateway can transfer communications between a network and the internet, (such as if you have a different IP format, say IP v6 to  IP V4)
 Security Gateway: a combination of router and firewall, as well as more. Some tools included aare Network Intrusion Detection or Prevention Service.
+	utilizes heuristics
+	detection just detects, prevention truly prevents
