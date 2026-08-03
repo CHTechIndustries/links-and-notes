@@ -3,5 +3,4 @@ Also converts between analog and digital
 modem creates the "WAN" (Wide area network), so it's basically the router for the WAN
 router: connects the signal together
 it is responsible for directing data between connected networks
-it creates a local IP address
-and creates a LAN (local area network)
+it creates a local IP address and creates a LAN (local area network)
