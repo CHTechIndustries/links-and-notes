@@ -11,3 +11,5 @@ gateway: converts information, data, or other communications from one protocol o
 Security Gateway: a combination of router and firewall, as well as more. Some tools included aare Network Intrusion Detection or Prevention Service.
 	utilizes heuristics, detection just detects, prevention truly prevents
 switch; finds the connection and allows network cables to communicate in multiple paths. It operates as 1-to-1
+Hub: main difference between it and switch is split or divided amongst the ports
+	it can be more robust, but it is no longer used
