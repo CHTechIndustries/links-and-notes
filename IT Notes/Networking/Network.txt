@@ -13,3 +13,4 @@ Security Gateway: a combination of router and firewall, as well as more. Some to
 switch; finds the connection and allows network cables to communicate in multiple paths. It operates as 1-to-1
 Hub: main difference between it and switch is split or divided amongst the ports
 	it can be more robust, but it is no longer used
+wireless access point: allow connecting wirelessly, thus allowing connecting more things as you have effectively a dedicated cable capable of many connections, and a range
