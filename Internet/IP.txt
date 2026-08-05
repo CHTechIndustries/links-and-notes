@@ -1,1 +1,2 @@
 internet protocol: a numerical value associated with a website (should be unique)
+domain name: a textual representation that the DNS (Doname Name Service) converts to the IP
