@@ -5,4 +5,5 @@ domain name: a textual representation that the DNS (Doname Name Service) convert
 IP has "2" parts
 
 Network ID (first 3 sections), and Host ID (last section)
+Class A: first octet is network ID, last 3 asre host
 Class C: follows the above pattern (the 3 network, 1 host)
