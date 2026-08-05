@@ -5,8 +5,14 @@ domain name: a textual representation that the DNS (Doname Name Service) convert
 IP has "2" parts
 
 Network ID (first 3 sections), and Host ID (last section)
+
 Class A: first octet is network ID, last 3 asre host
 Class B: first 2 are network ID, second 2 are Host ID
 Class C: follows the above pattern (the 3 network, 1 host)
 
-DNS basically acts as a table between an IP and the textURL typically has 4 parts:
+DNS basically acts as a table between an IP and the text
+URL typically has 4 parts:
+extension (the .com, .org, ect.)
+domain name (name of web)
+subdomain (www)
+protocol (normally https and http)
