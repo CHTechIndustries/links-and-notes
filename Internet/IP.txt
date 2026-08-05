@@ -11,6 +11,7 @@ Class B: first 2 are network ID, second 2 are Host ID
 Class C: follows the above pattern (the 3 network, 1 host)
 
 DNS basically acts as a table between an IP and the text
+
 URL typically has 4 parts:
 extension (the .com, .org, ect.)
 domain name (name of web)
