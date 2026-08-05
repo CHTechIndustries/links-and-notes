@@ -2,6 +2,6 @@ internet protocol: a numerical value associated with a website (should be unique
 
 domain name: a textual representation that the DNS (Doname Name Service) converts to the IP
 
-IP has 2 parts
+IP has "2" parts
 
-Network ID (first 3 sections), and Host ID (last section)
+Network ID (first 3 sections), and Host ID (last section)Class C: follows the above pattern
