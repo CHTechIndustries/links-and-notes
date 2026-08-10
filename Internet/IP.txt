@@ -26,3 +26,6 @@ www: subdomain
 	world wide web
 domain+extension = root domain
 url: uniform resourse locator
+HTTPS is a secure version of HTTP
+HTTPS uses port 443
+HTTP uses port 80
