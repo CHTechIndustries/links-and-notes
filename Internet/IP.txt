@@ -18,3 +18,7 @@ domain name (name of web)
 subdomain (www)
 protocol (normally https and http)IP has 2 main versions: IPv4 and IPv6
 IP has 2 main versions: IPv4 and IPv6
+domain name: website
+domain extension: com
+www: subdomain
+	world wide web
