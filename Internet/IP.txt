@@ -17,3 +17,4 @@ extension (the .com, .org, ect.)
 domain name (name of web)
 subdomain (www)
 protocol (normally https and http)IP has 2 main versions: IPv4 and IPv6
+IP has 2 main versions: IPv4 and IPv6
