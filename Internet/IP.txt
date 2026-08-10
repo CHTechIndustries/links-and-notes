@@ -16,8 +16,10 @@ URL typically has 4 parts:
 extension (the .com, .org, ect.)
 domain name (name of web)
 subdomain (www)
-protocol (normally https and http)IP has 2 main versions: IPv4 and IPv6
+protocol (normally https and http)
+
 IP has 2 main versions: IPv4 and IPv6
+
 domain name: website
 domain extension: com
 www: subdomain
