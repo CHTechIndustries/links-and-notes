@@ -22,3 +22,4 @@ domain name: website
 domain extension: com
 www: subdomain
 	world wide web
+domain+extension = root domain
