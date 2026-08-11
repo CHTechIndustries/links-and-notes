@@ -1,0 +1,1 @@
+if you use @ in sql, it makes it a variable that can be edited before being sent to the table (A.K.A. makes it useful)
