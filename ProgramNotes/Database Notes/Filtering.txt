@@ -1,5 +1,7 @@
 SELECT fields FROM table
 
+* means "all"
+
 for precise: 
 to filter, add
 WHERE
