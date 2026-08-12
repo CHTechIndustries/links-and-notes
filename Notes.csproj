@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="OtherStuff\**" />
+    <Compile Remove="Programing Notes\**" />
+    <Compile Remove="ProgramNotes\**" />
+    <Compile Remove="T\**" />
+    <EmbeddedResource Remove="OtherStuff\**" />
+    <EmbeddedResource Remove="Programing Notes\**" />
+    <EmbeddedResource Remove="ProgramNotes\**" />
+    <EmbeddedResource Remove="T\**" />
+    <None Remove="OtherStuff\**" />
+    <None Remove="Programing Notes\**" />
+    <None Remove="ProgramNotes\**" />
+    <None Remove="T\**" />
+  </ItemGroup>
+
+</Project>
