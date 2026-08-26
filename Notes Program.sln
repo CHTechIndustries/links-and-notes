@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes Program", "Notes Prog
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OtherProjects", "OtherProjects", "{7539DE1B-236F-4061-8A8A-4CEBB1AE2856}"
 	ProjectSection(SolutionItems) = preProject
-		OtherProjects\Other Projects = OtherProjects\Other Projects
+		OtherProjects\Duplicates. = OtherProjects\Duplicates.
 	EndProjectSection
 EndProject
 Global
