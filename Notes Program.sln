@@ -12,13 +12,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgramNotes", "ProgramNote
 		{7BCCB27A-37F0-4C33-9153-78076A90022C} = {7BCCB27A-37F0-4C33-9153-78076A90022C}
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OtherProjects", "OtherProjects", "{7539DE1B-236F-4061-8A8A-4CEBB1AE2856}"
-	ProjectSection(SolutionItems) = preProject
-		OtherProjects\Duplicates = OtherProjects\Duplicates
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramNotes", "..\ProgramNotes\ProgramNotes.csproj", "{985749A1-6F62-7F2D-C404-B6CD3205F5C2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,17 +26,12 @@ Global
 		{6FDBAF3B-51E7-4995-BC00-757F05238B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FDBAF3B-51E7-4995-BC00-757F05238B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FDBAF3B-51E7-4995-BC00-757F05238B83}.Release|Any CPU.Build.0 = Release|Any CPU
-		{985749A1-6F62-7F2D-C404-B6CD3205F5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{985749A1-6F62-7F2D-C404-B6CD3205F5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{985749A1-6F62-7F2D-C404-B6CD3205F5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{985749A1-6F62-7F2D-C404-B6CD3205F5C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6FDBAF3B-51E7-4995-BC00-757F05238B83} = {AD6EFB1C-CEF8-4204-8ACE-49462A7996C6}
-		{985749A1-6F62-7F2D-C404-B6CD3205F5C2} = {7539DE1B-236F-4061-8A8A-4CEBB1AE2856}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {919D3913-C66E-4253-841B-0944C947EAA1}
