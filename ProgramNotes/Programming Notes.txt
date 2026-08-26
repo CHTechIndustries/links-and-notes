@@ -1,0 +1,26 @@
+this.close();
+	close current form, only shuts down entire form if used on parent
+Application.Exit();
+close
+
+Prefix for items
+Combo Box- cmb
+List Box- lsb
+Buton- btn
+Text Box- txt
+Label- lbl
+Progress Bar- prg
+group box- 
+	gbx
+convert string to integer:
+int i = int.Parse(string);
+
+convert any to integer
+int i = Conver.ToInt32(string);
+
+https://medium.com/wix-engineering/naming-convention-8-basic-rules-for-any-piece-of-code-c4c5f65b0c09
+https://www.freecodecamp.org/news/programming-naming-conventions-explained/
+
+pnl = panel
+
+timer = tmr
