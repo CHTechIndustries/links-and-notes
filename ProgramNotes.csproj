@@ -15,6 +15,25 @@
   <ItemGroup>
     <None Remove=".gitattributes" />
     <None Remove=".gitignore" />
+    <None Remove="ProgramNotes\Database Notes\add query.png" />
+    <None Remove="ProgramNotes\Database Notes\Connecting To Database.txt" />
+    <None Remove="ProgramNotes\Database Notes\Editing.txt" />
+    <None Remove="ProgramNotes\Database Notes\Filtering.txt" />
+    <None Remove="ProgramNotes\Database Notes\Format.txt" />
+    <None Remove="ProgramNotes\Database Notes\Insert.txt" />
+    <None Remove="ProgramNotes\Database Notes\Query.txt" />
+    <None Remove="ProgramNotes\Programming Notes.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ProgramNotes\Database Notes\add query.png" />
+    <Content Include="ProgramNotes\Database Notes\Connecting To Database.txt" />
+    <Content Include="ProgramNotes\Database Notes\Editing.txt" />
+    <Content Include="ProgramNotes\Database Notes\Filtering.txt" />
+    <Content Include="ProgramNotes\Database Notes\Format.txt" />
+    <Content Include="ProgramNotes\Database Notes\Insert.txt" />
+    <Content Include="ProgramNotes\Database Notes\Query.txt" />
+    <Content Include="ProgramNotes\Programming Notes.txt" />
   </ItemGroup>
 
 </Project>
