@@ -1,0 +1,12 @@
+use single quotes ('') for text
+use -- for comments
+
+for instance: 
+Insert into Contacts (FirstName, LastName, PhoneNum, EMail, Notes)
+Values ('Charlie2', 'Hatch2', '555999444', 'email@email.email', 'Notes');
+
+single quote for strings; 1, 0, or null for bit
+ 
+often use 2 words (SELECT FROM, for instance)
+
+use "*" to select everything. for more info, see "Filering.txt"
