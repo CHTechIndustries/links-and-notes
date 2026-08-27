@@ -1,0 +1,3 @@
+store semi-outdated ones that do still have some useage, 
+
+or, at least store them untill that useage is non-existant
