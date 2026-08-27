@@ -9,6 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Notes\**" />
+    <EmbeddedResource Remove="Notes\**" />
+    <None Remove="Notes\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Remove="Form1.resx" />
   </ItemGroup>
 

@@ -12,6 +12,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgramNotes", "ProgramNote
 		{7BCCB27A-37F0-4C33-9153-78076A90022C} = {7BCCB27A-37F0-4C33-9153-78076A90022C}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITNotes", "ITNotes\ITNotes.csproj", "{1F22406B-EA86-47DF-9A7B-5BA787858090}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,12 +28,17 @@ Global
 		{6FDBAF3B-51E7-4995-BC00-757F05238B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FDBAF3B-51E7-4995-BC00-757F05238B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FDBAF3B-51E7-4995-BC00-757F05238B83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F22406B-EA86-47DF-9A7B-5BA787858090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F22406B-EA86-47DF-9A7B-5BA787858090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F22406B-EA86-47DF-9A7B-5BA787858090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F22406B-EA86-47DF-9A7B-5BA787858090}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6FDBAF3B-51E7-4995-BC00-757F05238B83} = {AD6EFB1C-CEF8-4204-8ACE-49462A7996C6}
+		{1F22406B-EA86-47DF-9A7B-5BA787858090} = {AD6EFB1C-CEF8-4204-8ACE-49462A7996C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {919D3913-C66E-4253-841B-0944C947EAA1}

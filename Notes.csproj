@@ -9,14 +9,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="IT Notes\**" />
+    <Compile Remove="Notes\**" />
     <Compile Remove="OtherStuff\**" />
     <Compile Remove="Programing Notes\**" />
     <Compile Remove="ProgramNotes\**" />
     <Compile Remove="T\**" />
+    <EmbeddedResource Remove="IT Notes\**" />
+    <EmbeddedResource Remove="Notes\**" />
     <EmbeddedResource Remove="OtherStuff\**" />
     <EmbeddedResource Remove="Programing Notes\**" />
     <EmbeddedResource Remove="ProgramNotes\**" />
     <EmbeddedResource Remove="T\**" />
+    <None Remove="IT Notes\**" />
+    <None Remove="Notes\**" />
     <None Remove="OtherStuff\**" />
     <None Remove="Programing Notes\**" />
     <None Remove="ProgramNotes\**" />
