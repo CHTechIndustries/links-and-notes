@@ -1,1 +1,2 @@
-10.10.12.x: infastructure 
+also called subnets
+smaller section of a network inside a larger network
