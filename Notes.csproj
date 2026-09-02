@@ -23,4 +23,8 @@
     <None Remove="T\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="SQL.txt" />
+  </ItemGroup>
+
 </Project>

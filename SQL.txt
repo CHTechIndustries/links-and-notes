@@ -1,2 +1,0 @@
-SQL
-used for datatabases
