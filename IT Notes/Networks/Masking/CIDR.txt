@@ -1,1 +1,2 @@
 Classless Inter-Domain Routing (CIDR)
+problem is that you waste parts of the IP
