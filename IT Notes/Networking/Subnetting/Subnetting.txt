@@ -12,4 +12,4 @@ Main network:
 	______________________________
 	10.10.16.x: VPN based staff (basically secure version of .15)
 
-all d
+all NP campuses in a mesh
