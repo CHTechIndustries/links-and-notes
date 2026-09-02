@@ -1,6 +1,8 @@
 also called subnets
 smaller section of a network inside a larger network
+
 used to try to improve flow
+
 NP uses one; subdivided
 Main network:
 	10.10.12.x: infastructure (cameras, servers, ect)
@@ -9,4 +11,5 @@ Main network:
 	10.10.15.x: staff devices
 	______________________________
 	10.10.16.x: VPN based staff (basically secure version of .15)
+
 all d
