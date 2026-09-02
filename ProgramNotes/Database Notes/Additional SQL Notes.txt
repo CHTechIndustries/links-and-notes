@@ -1,0 +1,5 @@
+if you use @ in sql, it makes it a variable that can be edited before being sent to the table (A.K.A. makes it useful)
+
+when setting variable, do "" for the name of the sql part (so adding variable @x uses "x")
+
+edit query output: probally int, number of rows effected
