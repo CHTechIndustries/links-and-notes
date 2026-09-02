@@ -6,3 +6,4 @@ each octed is 8 bits, so it's 8, 16, 24, 32
 rules to make:
 All IP's must be contigus
 block size must be a power 2(2^n)
+First IP of block divisible by block size least signifigant bits of host ID.
