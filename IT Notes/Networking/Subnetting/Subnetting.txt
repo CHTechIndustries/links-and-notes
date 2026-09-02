@@ -1,2 +1,3 @@
 also called subnets
 smaller section of a network inside a larger network
+used to try to improve flow
