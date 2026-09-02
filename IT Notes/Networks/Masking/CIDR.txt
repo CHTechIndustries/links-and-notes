@@ -3,6 +3,7 @@ Classless Inter-Domain Routing (CIDR)
 problem is that you waste parts of the IP
 
 each octed is 8 bits, so it's 8, 16, 24, 32
+
 rules to make:
 All IP's must be contigus
 block size must be a power 2(2^n)
