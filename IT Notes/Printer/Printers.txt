@@ -1,0 +1,15 @@
+Inkjet: sprays dots of ink onto the paper.
+	Can do color, black and white, ect. It's just ink.
+Laser: use a laser to make an electric picture on a heat. They are fast and produce crisp text. They are cheaper overtime, but they are more expensive upfront. They are all larger, but the color ones are even larger and more expensive
+Dot Matrix: they had a bunch pins that hit a ribbon, and that transferred the ink. But they are loud and low-quality, however they can make more than one at once (especially with carbon paper). They are nowadays mostly just for carbon copies and receipts
+Thermal Transfer Printers: they just burn it in, the quality may fade (literally fade over time), and requires a special paper. Fast and quiet.
+Dye-Sublimation Printers: use heat to transfer dye onto special papper or other materials like fabric or plastic. They are often used for shirts. Expensive ink and spacer, long last
+3D printing: uses a filament to build stuff. Can be slow, some filiments are expensive, sometimes multiple filiments
+All in one printers: they combine multiple functions, including printing, copying, scanning, and faxing. They provide conviencence, but are sometimes "jack of all trades, master of none"
+Large Format Printers: for larger pieces of paper, they have high detail, oversized, are large
+Mobile Printers: compact, lightweight, they can print directly from phones/ tablets. However, slower
+Plotters: high-quality, large scale. They handle larger paper sized, for precision and accuracy. Struggle with text
+UV Printers: rely on ultiviolot light to cure the ink onto objects, good for glass, magnets, ect. Even metal.
+Digital Presses: fast, consistent high quality printing, however expensive and often requires special training
+____________
+Toner: uses a powder, then heats it, baking it in
