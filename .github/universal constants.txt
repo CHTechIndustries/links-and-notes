@@ -1,0 +1,42 @@
+Why Universal Constants Are Constant
+Universal constants—such as the speed of light in vacuum (c), Planck’s constant (h), and the gravitational constant (G)—are considered fixed because they arise from the inherent stability of the physical laws and the geometry of spacetime in our universe.
+
+1. Stability of physical systems
+In any closed physical system, certain parameters—like mass, distance, velocity, and energy—remain constant over time within that system’s framework. For example, the Moon’s orbital period is so precisely predictable because the masses, distances, and velocities in its orbit are stable 
+saleh-theory.com
+saleh-theory.com
+. When these parameters are constant, the ratios between them also remain constant, producing universal constants.
+
+2. Ratios of fundamental quantities
+A universal constant is essentially a ratio of two or more physical quantities, such as energy, velocity, or acceleration, divided by dimensions like mass, time, or distance 
+saleh-theory.com
+saleh-theory.com
+. If the numerator and denominator are fixed within a given context, the ratio is fixed. For instance, in gravitational potential energy (E = mgh), if E, m, and h are constant, then g (acceleration due to gravity) becomes a constant.
+
+3. Symmetries and invariance in physical laws
+Constants like c and h are tied to deep symmetries in nature. The constancy of c in all inertial frames is a postulate of special relativity, ensuring that the laws of physics are the same for all observers 
+ebrief.auvsi.org
+ebrief.auvsi.org
+. Similarly, h sets the scale at which quantum effects dominate, and its fixed value reflects the quantization of energy in nature 
+ebrief.auvsi.org
+ebrief.auvsi.org
+.
+
+4. Geometric and structural foundations
+In Euclidean space, the ratio of a circle’s circumference to its diameter is π, a constant because the geometry is uniform. In our universe, the underlying spacetime geometry and the laws governing motion and interaction produce similar invariant ratios 
+EBSCO
+EBSCO
+.
+
+5. Empirical and theoretical consistency
+Measurements of these constants are consistent across time and space, and their constancy is assumed in all physical theories. While some constants are defined exactly (like c and h in SI units), others like G are measured with high precision 
+physics.nist.gov
+physics.nist.gov
+. Their constancy allows physical laws to be predictive and universal.
+
+In summary:
+Universal constants are constant because they are ratios of stable, invariant physical quantities that emerge from the fixed structure of spacetime, the symmetries of physical laws, and the repetitive, predictable behavior of systems in our universe 
+saleh-theory.com
+saleh-theory.com
++2
+. This constancy is both a feature of our universe’s geometry and a cornerstone of the predictability of physics.
