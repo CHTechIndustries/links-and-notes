@@ -1,0 +1,376 @@
+is there a way to change where github desktop stores it's refferences to repositories? I know it uses a file, and I think it's in the documents folder (the file that says "hey, these repositories are here", and is updated when you add a local repository. It's the reason every computer needs me to re-add repositories, as the repository is on a server, but the file is local)
+
+
+So, is there a way to move it? (I have github installed on a flash drive, maybe store it there? and if it's a setting that's on the computer, it would be 1 change. So, if it stores on the device "hey, refference this location", I only have to change "this location", not re-find all repos)
+
+Copilot said:
+Yes, but unfortunately not in the way you're probably hoping.
+
+What's actually happening?
+GitHub Desktop does not keep a simple portable file like:
+
+
+
+
+Plain Text
+repositories.txt
+that you can move somewhere else and point the app at. The list of repositories you've added is stored in GitHub Desktop's local application data (currently using IndexedDB/Electron app storage). GitHub Desktop developers have confirmed that repository metadata is stored in the app's local data directory, not inside the repositories themselves.
+github
++1
+
+That's why:
+
+Repositories can live on a network drive, server share, or external drive.
+But each computer still has its own GitHub Desktop "known repositories" list.
+When you switch PCs, GitHub Desktop doesn't automatically know about repos that already exist elsewhere.
+github
+Can you move the repository database?
+There is no built-in setting in GitHub Desktop that says:
+
+Store my repository list at X:\GitHubDesktopData
+
+from what I've seen. The repository data is tied to the application's local storage.
+github
++1
+
+Possible workarounds
+Option 1: Move the entire GitHub Desktop data folder
+On Windows, GitHub Desktop's application data is typically stored under:
+
+
+
+
+Plain Text
+%APPDATA%\GitHub Desktop
+and/or
+
+
+
+
+Plain Text
+%LOCALAPPDATA%\GitHubDesktop
+depending on the version.
+
+You could potentially use:
+
+
+
+
+BAT
+mklink /D
+to create a directory junction/symlink from the normal location to a folder on your flash drive.
+
+Example:
+
+
+
+
+BAT
+mklink /D "%APPDATA%\GitHub Desktop" "E:\GitHubDesktopData"
+The advantage:
+
+You make the change once per PC.
+GitHub Desktop reads and writes to the flash drive.
+The downside:
+
+GitHub Desktop updates could behave unexpectedly.
+If the flash drive isn't connected, GitHub Desktop may fail to load correctly.
+Option 2: Portable repository registry (my recommendation)
+Since your repositories already live on a server, consider keeping them all under a common root such as:
+
+
+
+
+Plain Text
+Z:\Repos\
+Then when setting up a new machine:
+
+Open GitHub Desktop.
+Drag the entire Repos folder in.
+Or select multiple repository folders at once.
+GitHub Desktop supports adding multiple repositories in one operation.
+github
++1
+
+Option 3: Copy GitHub Desktop's data between machines
+The GitHub Desktop team has stated that copying the app's data directory may work for migrating the repository list to another computer, though it is not officially supported. Account credentials generally need to be re-entered afterward.
+github
+
+What I would do
+Since you're already carrying GitHub Desktop on a flash drive, I'd either:
+
+Symlink the GitHub Desktop data folder to the flash drive (closest to what you want), or
+Write a small script that scans your server's repository folder and automatically re-adds them when you start a new machine.
+If you're on Windows, I can help you locate the exact GitHub Desktop database folder on your current installation and set up the symlink.
+
+
+
+
+
+Favicon typeFavicon typeFavicon type
+Sources
+You said:
+"GitHub Desktop does not keep a simple portable file like:" Yeah, I knew it wouldn't be that easy...
+
+
+"from what I've seen. The repository data is tied to the application's local storage. [github.com], [deepwiki.com]"
+so, in other words, it is installing some files when I run it from my thumbdrive? Is there a way to make it run from my thumbdrive?
+
+
+"Since your repositories already live on a server, consider keeping them all under a common root such as:"
+Yeah, but I have them in multiple subfolders ("organized" by what class they are for, what term, ect. Not that the organization is followed, but...)
+
+
+I guess I could make a repository with shortcuts to those folders, so it's easier to find them... but still, that's manual!
+
+Copilot said:
+Yep. That's the annoying part.
+
+When you "run from a thumb drive", GitHub Desktop is not truly portable. Even if the executable is on the flash drive, it still stores application data on the local machine in its Electron/Chromium storage area. The repository list, settings, account info, and other state live in local application data rather than beside the executable. The GitHub Desktop developers specifically noted that repository information is stored in IndexedDB within the application's data directory.
+github
++1
+
+So effectively:
+
+
+
+
+Plain Text
+Flash Drive
+├─ GitHubDesktop.exe
+└─ (program files)
+ 
+Computer
+├─ AppData
+│  ├─ GitHub Desktop data
+│  ├─ Repository list
+│  └─ Settings
+Which means when you plug the drive into another machine, GitHub Desktop starts up but finds an empty local database and says:
+
+"What repositories?"
+
+Can it be made portable?
+Not officially.
+
+The closest thing would be to redirect its data folder using a Windows junction or symbolic link.
+
+For example:
+
+
+
+
+Plain Text
+C:\Users\Charlie\AppData\Roaming\GitHub Desktop
+could be replaced with a junction pointing to:
+
+
+
+
+Plain Text
+E:\GitHubDesktopData
+Then GitHub Desktop would think it's using AppData, but the actual files would be on the thumb drive.
+
+The catch:
+
+You must set up the junction once on each computer.
+The thumb drive must always be connected.
+Future GitHub Desktop updates might not love the arrangement.
+Still, it's probably the closest thing to "one change per computer."
+
+Another possibility: automatic discovery
+I'm actually more annoyed by GitHub Desktop's lack of this feature than by the storage location.
+
+Your repositories already live on a server. In theory GitHub Desktop could scan:
+
+
+
+
+Plain Text
+\\Server\Repos
+recursively and find every .git directory.
+
+But it doesn't.
+
+What I'd probably do
+If all your repos are reachable under a handful of parent folders, I'd make a small script that runs on a new machine and opens every repository folder in GitHub Desktop automatically.
+
+For example, if your structure looks like:
+
+
+
+
+Plain Text
+Repos
+├─ Fall2025
+│  ├─ CS101
+│  └─ CS201
+├─ Spring2026
+│  ├─ CS102
+│  └─ Personal
+the script could recursively find every Git repository and add them all in one shot. Then "rebuilding" GitHub Desktop on a new machine becomes:
+
+Install GitHub Desktop.
+Run script.
+Done.
+Ironically, that may be easier and more reliable than trying to move GitHub Desktop's internal database around.
+
+One thing I'd check
+Open:
+
+
+
+
+Plain Text
+%APPDATA%
+and
+
+
+
+
+Plain Text
+%LOCALAPPDATA%
+and look for GitHub Desktop folders. If they're there, that confirms the app is writing local state even when launched from the flash drive.
+
+Honestly, if I were in your situation with a server full of repos, I'd lean toward the junction/symlink approach. It gives you the "change one thing on each PC" workflow you described, instead of re-adding dozens of repositories every time.
+
+
+
+
+
+Favicon typeFavicon type
+Sources
+You said:
+yeah, issue is, I don't have admin privilages (not even sure if I could do basic cl stuff except in the IT class, let alone makeing a symbolic link)
+
+
+ah well, guess for now I'll just deal with manual, and maybe make a c# program later...
+Copilot said:
+Honestly, that's probably the most sane conclusion for now. 😅
+
+Without admin rights, your options get a lot narrower:
+
+Creating directory junctions (mklink /J) usually requires elevated permissions.
+Symbolic links (mklink /D) traditionally require admin rights unless Developer Mode is enabled.
+Redirecting GitHub Desktop's app data location isn't something the application exposes as a normal setting. The repository list is stored in GitHub Desktop's local application data storage rather than in a simple user-editable file.
+github
++1
+A small C# utility actually sounds like the route I'd take too.
+
+You don't even need to interact with GitHub Desktop's internal database. For example:
+
+Scan your server share recursively.
+Find all folders containing:
+
+
+
+Plain Text
+.git
+Output a list of repository paths.
+Let you click one to open it, or generate a batch file with all the paths.
+You could even get fancy and:
+
+Group by class/semester.
+Search repositories by name.
+Save a "known repos" list on the thumb drive.
+Sync that list between computers.
+In a weird way, that ends up being more portable than relying on GitHub Desktop's internal storage.
+
+One other thought: if your repositories are all under a common server root, you might not even need GitHub Desktop to "remember" them. A little launcher app on the flash drive could present a tree view like:
+
+
+
+
+Plain Text
+Fall 2025
+ ├─ CS101
+ ├─ CS201
+ 
+Spring 2026
+ ├─ CS102
+ └─ Personal
+and when you double-click one it opens in GitHub Desktop using the repository path. Then GitHub Desktop's missing repository list becomes mostly irrelevant.
+
+As side projects go, that's actually a pretty practical C# one: file system recursion, tree views, config files, and process launching. Perfect "useful utility" territory rather than another throwaway demo project. 😄
+
+
+
+
+
+Favicon typeFavicon type
+Sources
+You said:
+yeah, although to make things "easy" I may have the organization set up, but it's only sometimes properly used... stuff is spread everywhere. there is a root folder, but there's some good size folder trees. Probally will just "scan for all repo's, add them" or some-such
+Copilot said:
+Honestly, that sounds like the best approach.
+
+If there's a single root somewhere like:
+
+
+
+
+Plain Text
+\\Server\Projects
+then your program can just recursively walk the entire tree looking for:
+
+
+
+
+Plain Text
+.git
+``
+directories.
+
+Something like:
+
+
+
+
+Plain Text
+Projects
+├─ Fall2025
+│  ├─ CS101
+│  │  └─ ProjectA
+│  └─ RandomStuff
+├─ Personal
+│  └─ GameProject
+└─ Archive
+   └─ OldThing
+wouldn't matter. The organization can be perfect, terrible, or somewhere in between. The scan doesn't care.
+
+You could have it:
+
+Scan from the root.
+Find every Git repository.
+Save the list to a JSON file on the thumb drive.
+Compare against the current machine's list.
+Add any missing repositories. GitHub Desktop stores its repository metadata locally rather than in the repositories themselves, which is why each machine has to build its own list.
+github
++1
+Honestly, I'd probably make it even simpler:
+
+
+
+
+Plain Text
+[Refresh Repository List]
+``
+button
+
+When clicked:
+
+
+
+
+Plain Text
+- Scan all folders
+- Find repos
+- Write repo-list.json
+Then either:
+
+Open repos directly from your tool, or
+Generate a file/script that re-adds them.
+The nice thing is that it becomes independent of GitHub Desktop's internals. If GitHub Desktop changes where it stores things in a future release, your scanner still works because Git repositories are still Git repositories.
+
+And since you're in C#, Directory.EnumerateDirectories() is pretty efficient for this kind of recursive search. You can even skip known huge folders (node_modules, .vs, bin, obj, etc.) to speed it up.
+
+In a way, your messy folder structure is actually an argument for the scanner approach. Humans have to remember where things are. A recursive search doesn't care how chaotic the tree is. 😄
