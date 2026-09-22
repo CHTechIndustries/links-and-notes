@@ -1,2 +1,0 @@
-if you have six cores, six instruction sets are possible
-however, via a program, they can be "divided", allowing less of the CPU to preform multiple calculations, so it could go from 6 cores to 12 "logical" cores, so each half of each core can do different instruction sets. Normally used to run equations in parallel, but could be used to run separate things at the same time, even if unrelated
