@@ -1,0 +1,60 @@
+Printer not working
+with some printers, especially HP, you may need to re-install the driver
+check if on the same wi-fi
+
+
+
+printer says it has no ink, but it prints;
+you might be getting a warning before it's out. You can just keep printing
+some test prints have bar graphs of the amount.
+
+
+
+I can't print from my mobile device
+	most new wi-fi printers to have "air-print", so iPhones/ apple OS can print if on the same network.
+Also many manufactures have apps that also offer more features, as well as third party ones. Some can even trigger scanners.
+
+Some printers can have an e-mail address, and you can e-mail stuff to it to print. So long as both you and it are connected to the internet, it can print
+
+
+
+printer is slow
+	if over wi-fi, will often be slower. Being closer to the printer will help due to distance. But, come on, use the ethernet!
+
+some things to do are avoid duplexing, lower quality via draft mode. You can (if applicable) change from useing Host based (or PCL), vs. post script, which are often higher quality, but can be slower
+
+
+
+cost per ink/ cost
+	print drafts in Black and White.
+	duplex can half the amount of paper
+	you can use "larger ink", which will cost more, but you buy ink less often. Much less often.
+	You can use third party ink, and it will often work. Some printers will use software to force you to use theirs
+
+
+
+Quality:
+	ink jets are good for consumer. Laser will have higher quality for crisp text.
+
+If quality is degrading, could be settings (things like draft mode), make sure paper type is correct.
+If toner, try shacking it. For inkjets, nozzle cleaning, ect. Also, ink and toner can go bad...
+
+If useing an inkjet to print photos, the right paper is important.
+
+
+
+Paperjams:
+	there can be up to 7 locations. So, it can:
+		be in the back
+		the tray
+		the feed
+		the toner area
+		
+		more
+getting to them can be anywhere from easy to practicly disassemble printer
+
+
+
+scanner stops working on multifunction printer:
+	it may have failed
+	check for software

@@ -1,0 +1,78 @@
+identifying printer issues:
+
+easiest way to determine it is if you know the symptoms, as then you can narrow it down.
+	Sometimes an error message will be provided, sometimes it will even be useful
+
+a common symptom is "weird noise"
+	clicking, grinding, whirring; often mechanical things
+
+Pages not fully completly, probally low ink
+if quality keeps randomly changeing, probally a driver or such
+
+if you know what your looking at, even if you don't fully understand how to fix it, if you know more, it will help others troubleshoot...
+
+___
+
+connectivity issues;
+more prevelant, difficulties with wi-fi, usb, ethernet, being on...
+weak signals hinder connectivity
+physical obstructions can case issues
+also needs to be on the right wi-fi. If disconnected, re-type it
+if blutooth, make sure it's paired.
+try disconnecting and re-connecting. Or, just cycle it
+
+if local, check cable, check it's plugged in, check other ports, clean plugs...
+
+you can try windows troubleshooter, but it's kinda not useful...
+
+check that it's detected as a printer... is it is, you can try forgetting and re-connecting.
+
+___
+
+Paper jams; the soloution is simple, unjam it.
+The execution, not so much. It can be in the;
+Input Tray
+Output Tray
+and between 0 to 5 internal locations
+	and they vary from "move one thing" to "basically disassemble it"
+also check for compatibility of the paper, both material (cardstock? photo paper? wrong size?), and other stuff.
+
+Don't yank the paper out, can cause damage. Pull it gently, and some printers have a mechanisim to manually move it.
+cleaning it also helps.
+
+___
+
+ink
+for ink, you can check it, use compatible cartridges. Replacing cartriges is simple
+	sometimes this won't auto-update ink levels
+printing with low ink can cause, well, issues...
+
+___
+
+print quality:
+random lines for no apparent reason, faded, blurry, ect.
+check ink, checking paper, check quality, make sure settings are good.
+clogged print head, so you might need to align and clean. Often done through the printer itself
+
+___
+
+an error is the ultimate (and rarest) help
+ for instance "paper jam", means, well, paper jam.
+Out of ink? well... duh
+
+on some printers they even give on screen instructions!
+
+___
+
+compatability: the bane of every software developers existance.
+in-compatible printers will, well... have fun
+
+sometimes you may need a software. Not driver, software
+
+___
+
+maintnence
+run alignments and cleaning
+use microfiber on scanner
+run updadates
+dust

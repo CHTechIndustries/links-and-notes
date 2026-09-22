@@ -1,0 +1,41 @@
+Plenum Cables:
+	designed to work in the Plenum space, which is between floors, and (sort of attics, maybe-ish)
+
+made with things like fluorinated ethylene polypmer (FEP) or low-smoke poly-vinyl chloride (LS-PVC)
+
+plenum is a rating, so technically any ethernet can be plenum
+
+due to materials, inherently more expenseive. Also more specialized, so there's that...
+
+tested under (at least):
+	UL-910
+	NFPA-262
+
+involves fire spread/ smoke density
+
+doesn't include walls (those are risers)
+	those cables often called "risers"
+
+riser: medium instead of high fire resistance
+risers: often PVC, maybe somewhat flame retardant
+risers: more fumes and such
+______________________________________________________________________________________________
+
+ethernet cables:
+
+other types:
+-coaxial
+-fiber optic
+
+fiber optic is most recent, coaxial wasn't even designed for networking, but as it worked, it worked
+
+pros;
+faster, secure
+
+cons;
+limited mobility
+	if anything though, better than some
+more requirments
+on-premise
+
+modern network: cat5e+

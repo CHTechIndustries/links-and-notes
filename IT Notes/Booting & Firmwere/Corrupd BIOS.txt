@@ -1,0 +1,25 @@
+fixing corrupted BIOS is similar to fixing OS, only more dangerous
+
+most effective is "warranty"
+
+if you have a gigabyte motherboard, there is a backup BIOS. If the main one is corrupted, you use the backup. If possible, it will use itself as a reference to fix the code. If it doesn't auto-happen, 
+power-off
+press and hold reset button
+
+third method is to use a paper clip to short pins one and 6 (on the "m-BIOS", or "main Bios")
+
+next:
+remove the discreet Graphics card
+if your CPU doesn't have integrated graphics, well... if you remove the discreet card and there is no integrated, well, no graphics!
+
+Reset the BIOS
+remove CMOS, (assuming if you can boot into BIOS), reset the jumper. There may be a "restore factory settings" or "load setup defaults"
+can brick stuff, cause issues. BIOS is DANGEROUS
+
+Use jumper (Old motherboards)
+
+
+Update BIOS
+	sometimes it will tell you to update
+	download copy of BIOS into flash drive, follow instructions
+	ensure steady power, OR ELSE
