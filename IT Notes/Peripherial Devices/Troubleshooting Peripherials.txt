@@ -1,0 +1,11 @@
+wireless often use IR or radio, often a "USB dongle"
+sometimes blutooth
+
+most have a max range, and stuff might not block it, but stuff will interfere and weaken it
+wirless is, generally longer range
+
+try "resseting", try rechargeing/ replaceing batteries
+
+the wireless adaptor might have an issue, or the port might have an issue
+
+for wired connections, try changeing ports, and seeing if it "magicly fixes itself"

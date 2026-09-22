@@ -1,0 +1,6 @@
+https://www.analyticsvidhya.com/blog/2016/04/tree-based-algorithms-complete-tutorial-scratch-in-python/
+https://www.youtube.com/watch?v=DCZ3tsQIoGU
+https://www.youtube.com/watch?v=oKAnOzIu66c
+
+refind (it said it might be at a new link)
+https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_sift_intro/py_sift_intro.html
