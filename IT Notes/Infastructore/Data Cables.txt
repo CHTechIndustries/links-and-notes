@@ -1,0 +1,22 @@
+The color of interorior and visible color on connects show generation
+
+White: USB 1.0, or 1.x
+	they have transfer speed of 12 Mbs. often keyboards and mice
+
+Black: 2.0; 480 Mbs
+
+Blue: 3.0 5 GPS
+
+Teal or Puble USB Gen1 or SuperSpeed+ 10 GpS
+
+Red: 3.1 Gen 2 or 3.2. 20 Gbps often sleep and charge, allowing charging even if main device off
+
+Yellow: similar to red, capable of 5 Gbps and always-on charging
+
+Orange Ports: usb 3.0 with high-retention features, designed for industrial use to prevent accidental disconnection.
+
+Green ports: often proparity, supporting Quick Charge
+
+___________________________________
+USB-C, thinner, reversible
+USB 4 is based on same technology, so if you have USB-A 4, it's the same cable as a USB C

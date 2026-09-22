@@ -1,0 +1,6 @@
+SSL: completle deprecated in 2015
+TLS: more advanced, 1.0 and 1.1 deprecated, 1.2 and 1.3 common
+
+15:39 8/10/2026
+
+NAT- Network Area Translation

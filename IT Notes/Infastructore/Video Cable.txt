@@ -1,0 +1,47 @@
+Visual Cables
+
+VGA: old scool, analog
+1987
+________________________________________
+
+HDMI: older- digital
+High-Definition Multimedia Interface
+created in 2002, very first devices where in 2003
+
+reason it's popular is it can send audio data. (Compressed and Uncompressed)
+
+standard: tv's, monitors, ect.
+mini: cameras and camcorders
+micro: it exists?
+	go-pro's
+
+HDMI devices
+	Cables
+	Adapters: HDMI -> VGA
+	Adaptor Cable: see above, but as a cable. Often for USB types
+
+HDMI Surge Protector: does what it says
+
+HDMI Switches: allows you to switch. 
+like KVM?
+
+HDMI Splitters: splits 1 into 2+. duh...
+HDMI Extenders: Extends it past the max length
+	no official max length, usually 15 to 25 feet for standard passive HDMI before quality drops
+
+HDMI Coupler: combining 2 male-male
+________________
+Display Port: digital
+sends data similar to ethernet and USB, which is packet based 
+from 2008
+effectively does everything HDMI does, but better (don't tell HDMI)
+have prongs
+
+Display Port: Graphics Cards, PC monitors, Docking Stations
+Mini Display Port; Graphics Cards, laptops, older apple products
+____________
+DVI: digital visual interface
+	still used. good for analog to digital
+can act as an adapter/ converter for analog <-> digital
+	adapter: takeing one connector type to plug into another without changeing signal
+	converter: convert signal as well
