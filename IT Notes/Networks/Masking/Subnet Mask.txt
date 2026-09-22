@@ -1,2 +1,0 @@
-subnet mask:
-a listing of which subnets are on the same network
