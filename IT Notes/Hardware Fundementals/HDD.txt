@@ -1,6 +1,0 @@
-hardrives store data in chuncks
-
-sometimes (read often) data is stored in seemingly unrelated spots. to read faster, defragging
-defraging rearranges it so the chunks are more contiguous
-
-format done via disck manager
