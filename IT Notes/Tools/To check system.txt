@@ -1,2 +1,0 @@
-chkdsk "x:"
-sfc scannow
