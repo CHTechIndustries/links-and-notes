@@ -1,0 +1,9 @@
+Removed lid screw
+unplug all cables and don't note where they where
+take off front and optical disck
+unscrew and remove hardrive
+extract ram
+remove fan
+remove other fan
+drop screw
+remove motherboard

@@ -1,0 +1,8 @@
+test print, check if on
+stuff hang in quue
+can have wrong order, defaulting to, say, PDF
+	can try clearing it, or refreshing it if hung up
+
+test print could also inform you of ink (and, depending on brand, might actually display it on the page)
+if done from your computer, that confirms it can be contacted over the network
+services: shows everything running
