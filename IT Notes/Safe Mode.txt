@@ -1,0 +1,8 @@
+Safe mode disables every third party software, leaveing just the base windows drivers
+very good to determine if the issue is windows-based, or third party software based. Or hardware.
+
+you can tell you are in safe mode if there is no background, it says safemode in the corners, the very top has the windows build version
+
+there are many ways to do it:
+	one of the simplest ways is to use "ms config", also known as System Configuration
+		look at the OS (this is also how you can change default OS's. Hit the check box labled "safe mode")

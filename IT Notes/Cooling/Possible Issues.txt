@@ -1,0 +1,22 @@
+step 1: check for objects
+step 2: tighten screws
+
+intermittent stopping:
+step 1: check connections
+
+loud:
+adjust fans settings in BIOS (f2, for instance)
+adjust fans settings elsewhere
+buy new fans
+
+
+liquid cooling:
+
+check pump RPM, check pump physically
+if using software, make sure you have it properly plugged into the motherboard
+
+check for leaks
+
+estimated lifespan:
+all in ones: 4 to 6 years
+custom setup: without maintenance, about 3 years.

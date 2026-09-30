@@ -1,0 +1,56 @@
+CRT: cathode ray tube, 
+	640x480
+	800x600
+	1024x768
+got to
+used "VGA" cables for standard def
+
+CRT's don't have a "fixed native resoloution"
+had a higher refresh rate of 75+ hertz, "flicker free"
+
+16:9 is normal aspect ratio, good for "cinematic and immersive"
+2010's 4K, ~8 million pixels
+
+in the "todays", OLED (organic LED), very good contrast, ability to do "perfect" black by turning off the pixel
+_________________________________________________________________________
+lots of pages, graphic designs, ect. Higher resoloution is better.
+
+For 4K videos, more resoloution = better, 4K optimal. But more graphics power
+
+many monitors use >60 hertz refresh, gameing monitors often go up to 200+
+
+Response time is how long it takes for the pixels to change color, smaller=better
+
+screen (the plastic between you and the lights)
+IPS- known for excellent color reproduction, and wide view angle. Good for graphic design, photo editing, other color sensitive work
+VA- high contrast ratio, good view angle
+TN: fast response times, worse viewing angle, worse color
+
+_______________________________
+LCD: like a filter. There is a light source, and a "LCD" filter that alters the orientation of the Liquid Crystal
+	okay energy efficiency
+LED: uses LED (Light emmiting diode), distributed along the edges, or fully along the back (fully backlit), allowing altering
+		okay energy
+OLED: each pixel is it's own organic light source. So each pixel can be different, and it can be "true black", as you can have it off.
+	most efficient
+__________________________________________
+specific technology:
+
+HDR:High Dynamic Range
+	improve the quality and contrast of older formats. Dynamic range describes the range, HDR makes the contrast
+wether it can reach 200 knits, or 2000 knits (very dark, blinding), still limited by signal. It scales ranges so old formats which don't have the range. HDR just has steps to edit it, to scale the light
+	Ultra-HD Blueray can store HDR, and/ or 4K. But, you need a player compatible
+
+G-Sync/ Free-Sync
+Only difference is:
+G-Sync= NVIDIA
+Free-Sync = AMD
+	it is to attempt to prevent screen tearing, which happen when the monitor's refresh rate exceeds the GPU, basically the GPU sends a partial frame to keep up, leading to overlaps.
+	It causes the monitor to delay dynamically, adjusting it's refresh rate to match 
+
+More advanced version factors in 120 hz, and works factoring in framedrops
+last has HDR stuff
+
+NVIDIA says that free-sync will work up to under 30 hertz, seems to work up to around 48 hertz
+
+G-sync uses a special chip in the monitor, but this allows things like frame-doubling, and also it helps remove motion blur

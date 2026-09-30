@@ -1,0 +1,50 @@
+wrong refresh rate, can cause "no signal", as it has no valid input
+
+if using tv, might need to use "overscan" or "underscan", 
+
+aspect ratio can be messed up using portrait mode
+
+in game settings can fix using the wrong monitor, if not  
+
+win + i 
+	opens settings
+
+when it defaults to duplicate, change it ( win + p, or settings)
+	win + p
+		loads project menue
+
+monitor(s) constantly flickering
+	check cables
+
+wone monitor off, check cables, settings, ect.
+
+mismatched colors:
+	get same monitor
+	color profile might allow enough adjustments to fix it
+		or display calabriation
+
+if doing 3 monitors:
+	basically the same
+can only duplicate 2 (it will extend to 1, then duplicate one of those 2 monitors to the other)
+
+check drivers and such
+
+(back to "multi-monitor"):
+games keep minimizing
+	could be you clicking another monitor
+
+apps and tabs kepp getting shuffled
+	it's a display setting
+
+visual distortions or artifacting: same as normal artifacting/ distortin, but perhaps shortening cable
+
+display hub/ docking station: there might be some limitations to the signals and such.
+	some cap refresh rates for 8K or 4K with more than 2 screens
+
+monitor suddenly malfunctions:
+	updates, drivers, cables...
+win + ctrl + shift + b
+	reset graphics driver
+
+images don't align:
+	misaligned monitor size or resolution

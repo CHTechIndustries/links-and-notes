@@ -1,0 +1,4 @@
+win+x, event viewer
+view logs and such such
+
+startup apps, show BIOS thing

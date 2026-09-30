@@ -1,0 +1,9 @@
+1. Home Media Server:
+-RAID 5
+-1 disck tollerance, faster read speed
+2. Banking
+- RAID 6
+- Redundant, efficient
+3. Megacorp
+-RAID 60
+-two disk tolerance per mirror.

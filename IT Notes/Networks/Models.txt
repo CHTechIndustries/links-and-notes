@@ -1,0 +1,65 @@
+OSI
+	open systems interconnection
+
+TCP/ IP
+	Transmission Control Protocol / Internet Protocol
+
+Five-Layer Model
+
+
+7 layers of OSI
+= Upper Layer: deal with application issues and implemented in software
+- lower layers:hardware
+
+transport ("heart" of it)
+
+Layers are:
+
+Upper: 
+	Application
+		the interface (web browser)
+	Presentation
+		How it's being presented (displayed on screen)
+	Session
+		Establishing, Maintaining, and forming the connection
+middle:
+	Transport
+		how it travels (protocols)
+			TCP
+				Transmission Control Protocol
+				Guranteed
+			UDP
+				User Datagram Protocol
+				Gets There
+		Ip adresses
+lower
+	Network
+		IP addresses
+		packets (creating and routing)
+	Data Link
+		organizing bits of data into "frames", which helps to form the packets
+		the mac address
+	Physical
+		all the physical components (routers, switches, cables, antennas, repeater, modem)
+
+
+
+
+TCP/IP
+	4 layers
+		
+	Application
+		The program
+	Transport
+		Make sure data is sent via TCP/UDP
+	Network/ Internet
+		networking layer
+	Network Access
+		Physical Connections
+
+5-layer
+	Application
+	Transport
+	Network
+	Data Link
+	Physical

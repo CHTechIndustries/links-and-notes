@@ -1,0 +1,9 @@
+same symptoms as hd
+
+ssd's are faster, 
+
+task manager can be used via startup tab and check "last bios time". as it reaches bios, if slower, generally means takes longer to get data, and thus might have issues
+
+smart: Self-Monitoring Analysis and Reporting Technology
+
+zettabyte max partitions
