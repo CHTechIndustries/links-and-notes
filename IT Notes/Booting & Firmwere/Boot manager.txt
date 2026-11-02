@@ -1,0 +1,18 @@
+Boot manager
+used to "boot.ini" (initialization)
+uses a special registry now
+
+both read-only and hidden (means I can see it, but it will warn me)
+in root directory of the partition marked "root"
+
+can disable via "system config", manipulate things like timing, default OS...
+
+trusted boot takes just the OS
+
+Secured Boot first checks "digitally signatures" to make sure it's safe.
+
+4 steps:
+1. Pre-Boot: post/ BIOS
+2. Windows Boot Manager (bootmgr.exe)
+3. Windows OS loader: winload.exe
+4. Windows NT OS Kernel: ntoskrnl

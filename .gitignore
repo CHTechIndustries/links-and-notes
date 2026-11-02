@@ -370,3 +370,5 @@ primary scene.io.backup
 *.bkp
 /.vs/links-and-notes/v17/.wsuo
 /.github/Worktree
+/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache

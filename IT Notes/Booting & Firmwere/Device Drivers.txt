@@ -1,0 +1,13 @@
+Device Drivers:
+
+They are like an "OS" for the periferials
+
+
+They are a piece of software that tells 
+
+2-types
+1. kernal-mode device driver: includes some generic hardware that loads with the OS
+2. User-mode: "plug and play", activates "over" the OS, such as detecting and controlling your mouse when you plug it in
+
+third "one"
+3. virtual, manages virtual devices, controlling data flow

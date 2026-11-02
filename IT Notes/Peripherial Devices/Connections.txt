@@ -1,0 +1,15 @@
+VGA: older video connection
+HDMI: carries audio and visual (It's a hybrid of Display Port and Aux-Cord)
+Display Port: carries visual
+Aux-Cord: carries sound
+	3 1/2 millimeter jack
+Blu-tooth: a type of wireless protocol
+wi-fi: a wireless protocol
+thunderbolt: small devices
+	loved by apple, especially with Lightning cable
+USB- connecting many things
+	types:
+		A- rectangule
+		B- it's a square
+		C- unidirectional, thin rectangle
+ethernet- wired networking

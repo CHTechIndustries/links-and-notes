@@ -1,0 +1,67 @@
+Ram like capaciter
+
+data charges capaciter
+as time goes by batteries loose charge, or, in this case, data
+while on, send constant stream of power, without that, data degrades rapidly
+
+ROM
+read only
+"permanent"
+like battery, needs some power to retain information, but only to re-charge the passive discharge, so it uses less power.
+
+Only 
+
+CMOS battery
+
+S-Ram
+D-Ram
+
+static ram
+dynamic ram
+
+s-ram is for cacheing, which is able to be stored longer durations
+d-ram is "slower", used for most data
+
+PROM- programable read-only memory. Can write (to install a bios). Can read it, but once there it can't go
+	CD Rom. Data is physically embedded (literally burned in)
+EPROM- Erasable Programable Read-Only Memory. Can be erased using UV, then written to again
+	Boot Drive, parts of BIOS, magnetic tapes
+EEPROM- can be erased electronically, not just UV.
+	USB's
+
+DIMM
+	Dual Inline Memory Modual- 64 bit bandwith, with 168, 184, 240, 288
+		typically increased with version DIMM 1 had 168, DIMM 2 had 184
+
+SIMM- Single Inline Memory Module
+	Older technology
+
+RIMM
+	rambus inline memory module
+
+DRAM- Dynamic RAM
+	Operates asyncronusly with the system clock, making it slower. Coud be 30 seconds vs. 60 seconds. It would have to wait until CPU is ready. It might also be offset, so RAM starts, then CPU, and it has to paus
+
+SDRAM-
+	operates synchronously with system clock, making it not have to pause, and thus faster
+
+DDR- different versions of DIMM
+	Each DDR doubled about it could be fetched
+
+SIMM-
+	1 bit (kinda DDR0)
+DDR1- 2 bits
+DDR2- 4 bits
+
+clock speed second- Mhz = 1 million instructions per second
+Ghz= 1B instructions per second
+
+multitasking as we think of it isn't possible (for humans nor computers)
+Path width- how much data can be transferred in a clock cycle
+
+Number of cores is like refresh rate vs. resoloution
+with screens, refresh rate is best (you don't notice the difference between resoloutions after a certain point, but refresh rate is still noticeable)
+
+with cores, higher clock speeds makes it process faster, number of cores allows more processing. More cores allows more intensive stuff (so for something like video editing, the calculations are harder, and more cores is nice), but clock speed makes more clock speed allows "resoloution"
+
+ultimately, cores will typically have a bigger influence.

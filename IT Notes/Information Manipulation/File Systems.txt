@@ -1,0 +1,25 @@
+FAT 32 is common due to compatibility
+
+NTFS is "FAT 64"
+	It's the most recent, modern one
+Supports permissions and and encryptions
+File size limit of 16 exabytes
+Journaling (making periodical updates of files. This system allows it to "restore" to a point. So if an update breaks windows, it can return to a specific point)
+windows 3.1 was the first with it (1993), first to require it was windows 8
+
+exFat: extended file allocation
+	closer to being truly FAT-64, as it's based on the same technology, but with minor modifications. Read right on mac OS and other OS. EVEN WINDOWS! It has the benifits of four
+
+Linux uses "ext, ext2, ext3, ext4"
+no native windows or mac support. Has journaling (as of 2001, ext3). As of 2008, ext4 is default. as of 2025, most recent is ext4
+file size of 166 terabites, volume of 1 exabyte...
+
+
+apples:
+HSF- hierarchal ("mac OS standard"
+
+HSF+ (released 1998) (HSF Extended/ Mac OS extended)
+
+Mac OS 10.4: macOS 10.4 (2010)
+
+2017, APFS (apple file system)

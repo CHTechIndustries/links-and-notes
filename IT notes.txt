@@ -1,0 +1,17 @@
+right click on windows icon: advanced settings
+win + x: advanced set tings
+
+right click taskbar: task manager
+ctrl + shift + esc: task manager
+
+
+chipset is the chips that optimize communication between other parts and the CPU
+	first, everything directly hardwired to CPU. everything same priority, overwhelmed CPU and caused bottlenecks
+
+	second, added 2 chips. North bridge (top), and south bridge (bottom). Every component went to one of those chips
+	fast computers (RAM, GPU, ect.) went to North Bridge
+	Slow (Hardrives, SSD, IO, Storage)
+		Then, South Bridge goes to North Bridge, and the North Bridge to go to the CPU
+
+	third, CPU became the North Bridge
+		then, IO, Storage, ect. goes into "south bridge" (Intel = Platform Controller Hub), (AMBD= "another term"), which directly connects to CPU

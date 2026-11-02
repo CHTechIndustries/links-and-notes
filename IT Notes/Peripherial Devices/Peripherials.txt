@@ -1,0 +1,27 @@
+peripherial devices add functionality that is not inherent to the computer (it will function with or without)
+you don't need, say, a keyboard to run it
+
+inputs:
+microphones
+keyboard
+mouse
+scanner
+they take non-digital things, like sound, into binary
+
+outputs:
+speakers
+screens
+printer
+headphone
+they take the digital signal from an input, and convert it into, say, vibrations
+
+
+storage devices
+used to store stuff, practically necessary
+
+
+communication
+modem: allows connecting to the internet
+network card: necessary to connect the internet to the computer
+router: route multiple computers together
+used to communicate between computers
