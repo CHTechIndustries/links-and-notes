@@ -1,0 +1,9 @@
+a standardized way of communicating data (protocol)
+one of the most common is IP (Internet Protocol)
+
+a port is a specific, well, port for data
+
+0-~1023 is the common and standard ports
+past that to ~50,000 are non-registered, so used by specific programs, organizations, ect.
+
+49152 to 65535 are "dynamic" or "ephemeral". Temporarily assigned when you, say, connect to a website. Then the data from that website goes through that port
