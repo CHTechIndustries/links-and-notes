@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes Program", "Notes Program.csproj", "{A7950E0E-1AF6-40EC-A19F-25E5DA79EE81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobs", "Jobs.csproj", "{396D1047-CA33-2E09-872C-EF3DCC6E58B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7950E0E-1AF6-40EC-A19F-25E5DA79EE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7950E0E-1AF6-40EC-A19F-25E5DA79EE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7950E0E-1AF6-40EC-A19F-25E5DA79EE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7950E0E-1AF6-40EC-A19F-25E5DA79EE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396D1047-CA33-2E09-872C-EF3DCC6E58B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396D1047-CA33-2E09-872C-EF3DCC6E58B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396D1047-CA33-2E09-872C-EF3DCC6E58B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396D1047-CA33-2E09-872C-EF3DCC6E58B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5F5D501-0559-433A-98E7-D4F5D1538025}
+	EndGlobalSection
+EndGlobal
