@@ -5,7 +5,7 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes Program", "Notes Program.csproj", "{A7950E0E-1AF6-40EC-A19F-25E5DA79EE81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobs", "Jobs.csproj", "{396D1047-CA33-2E09-872C-EF3DCC6E58B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jobsAndInterview", "jobsAndInterview.csproj", "{A878E5FF-A01E-436F-A4C8-FD5B7B99040D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{A7950E0E-1AF6-40EC-A19F-25E5DA79EE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7950E0E-1AF6-40EC-A19F-25E5DA79EE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7950E0E-1AF6-40EC-A19F-25E5DA79EE81}.Release|Any CPU.Build.0 = Release|Any CPU
-		{396D1047-CA33-2E09-872C-EF3DCC6E58B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{396D1047-CA33-2E09-872C-EF3DCC6E58B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{396D1047-CA33-2E09-872C-EF3DCC6E58B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{396D1047-CA33-2E09-872C-EF3DCC6E58B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A878E5FF-A01E-436F-A4C8-FD5B7B99040D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A878E5FF-A01E-436F-A4C8-FD5B7B99040D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A878E5FF-A01E-436F-A4C8-FD5B7B99040D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A878E5FF-A01E-436F-A4C8-FD5B7B99040D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
